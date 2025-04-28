@@ -1,0 +1,49 @@
+.nav-desktop {
+    background-color: rgb(20, 20, 20);
+    box-shadow: 3px 3px 5px rgb(235, 230, 230, 0.8);
+}
+
+.nav-desktop ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-desktop li {
+    height: 50px;
+}
+
+.nav-desktop a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: beige;
+}
+
+.nav-desktop a:hover {
+    background-color: rgb(10, 10, 10);
+    color: beige;
+}
+
+.nav-desktop b:first-child {
+    font-size: 1.0em;
+    color: royalblue;
+}
+
+.nav-desktop b {
+    font-size: 1.0em;
+    color: whitesmoke;
+}
+
+.nav-desktop b:last-child {
+    font-size: 1.0em;
+    color: tomato;
+}
+
+.nav-desktop li:first-child {
+    margin-right: auto;
+}
