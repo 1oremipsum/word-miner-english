@@ -29,21 +29,6 @@
     color: beige;
 }
 
-.nav-desktop b:first-child {
-    font-size: 1.0em;
-    color: royalblue;
-}
-
-.nav-desktop b {
-    font-size: 1.0em;
-    color: whitesmoke;
-}
-
-.nav-desktop b:last-child {
-    font-size: 1.0em;
-    color: tomato;
-}
-
 .nav-desktop li:first-child {
     margin-right: auto;
 }

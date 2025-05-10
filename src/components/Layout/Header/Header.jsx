@@ -1,26 +1,22 @@
-import React from 'react';
+import { HOME_PAGE, STUDY_PAGE, WORD_LIST } from '../../../routes/routeConstants';
 import style from './Header.module.css';
+import Logo from '../../UI/Logo/Logo';
+import NavItem from './NavItem';
 
 const Header = () => {
   return (
     <nav className={style['nav-desktop']}>
       <ul className={style['nav-desktop__ul']}>
         <li className={style['nav-desktop__li']}>
-          <a className={style['nav-desktop__a']} href="/">
-            <b className={style['nav-desktop__b']}>W</b>ord 
-            <b className={style['nav-desktop__b']}>M</b>iner 
-            <b className={style['nav-desktop__b']}>E</b>nglish
-          </a>
+          <NavItem to={HOME_PAGE}>
+            <Logo />
+          </NavItem>
         </li>
         <li className={style['nav-desktop__li']}>
-          <a className={style['nav-desktop__a']} href="/study">
-            Aprender Nova Palavra
-          </a>
+          <NavItem to={STUDY_PAGE}>Aprender Nova Palavra</NavItem>
         </li>
         <li className={style['nav-desktop__li']}>
-          <a className={style['nav-desktop__a']} href="/word-list">
-            Lista de Palavras
-          </a>
+          <NavItem to={WORD_LIST}>Minha Lista de Palavras</NavItem>
         </li>
       </ul>
     </nav>

@@ -1,0 +1,14 @@
+.logo-container b:first-child {
+    font-size: 1.0em;
+    color: royalblue;
+}
+
+.logo-container b {
+    font-size: 1.0em;
+    color: whitesmoke;
+}
+
+.logo-container b:last-child {
+    font-size: 1.0em;
+    color: tomato;
+}
